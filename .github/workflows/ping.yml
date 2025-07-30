@@ -11,4 +11,5 @@ jobs:
 
     steps:
       - name: Call my Render API
-        run: curl -s https://ticky-api.onrender.com
+        run: curl -I https://ticky-api.onrender.com
+
